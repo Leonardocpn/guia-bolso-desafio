@@ -3,7 +3,7 @@ import { mount } from "enzyme";
 import FactCard from "../pages/home/components/facts";
 import { CategoryProvider } from "../service/categoryContext";
 
-it("should render Fact Cardw", () => {
+it("should render Fact Card", () => {
   const component = mount(
     <CategoryProvider>
       <FactCard />
