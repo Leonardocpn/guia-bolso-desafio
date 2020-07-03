@@ -41,7 +41,7 @@ function FactCard() {
       <StyledCard>
         <FactContainer>{joke}</FactContainer>
       </StyledCard>
-      <Button variant="outlined" color="primary" onClick={handleNewJoke}>
+      <Button variant="contained" color="primary" onClick={handleNewJoke}>
         Get a new Fact
       </Button>
     </Container>
