@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/guia-bolso-desafio/static/css/main.ca68aa8f.chunk.css",
+    "main.js": "/guia-bolso-desafio/static/js/main.9b07bfa6.chunk.js",
+    "main.js.map": "/guia-bolso-desafio/static/js/main.9b07bfa6.chunk.js.map",
+    "runtime-main.js": "/guia-bolso-desafio/static/js/runtime-main.970e14c3.js",
+    "runtime-main.js.map": "/guia-bolso-desafio/static/js/runtime-main.970e14c3.js.map",
+    "static/js/2.74b361a0.chunk.js": "/guia-bolso-desafio/static/js/2.74b361a0.chunk.js",
+    "static/js/2.74b361a0.chunk.js.map": "/guia-bolso-desafio/static/js/2.74b361a0.chunk.js.map",
+    "static/js/3.726aae6a.chunk.js": "/guia-bolso-desafio/static/js/3.726aae6a.chunk.js",
+    "static/js/3.726aae6a.chunk.js.map": "/guia-bolso-desafio/static/js/3.726aae6a.chunk.js.map",
+    "static/js/4.6355d50b.chunk.js": "/guia-bolso-desafio/static/js/4.6355d50b.chunk.js",
+    "static/js/4.6355d50b.chunk.js.map": "/guia-bolso-desafio/static/js/4.6355d50b.chunk.js.map",
+    "index.html": "/guia-bolso-desafio/index.html",
+    "precache-manifest.551f1cf3374e02c122faca68bd674b45.js": "/guia-bolso-desafio/precache-manifest.551f1cf3374e02c122faca68bd674b45.js",
+    "service-worker.js": "/guia-bolso-desafio/service-worker.js",
+    "static/css/main.ca68aa8f.chunk.css.map": "/guia-bolso-desafio/static/css/main.ca68aa8f.chunk.css.map",
+    "static/js/2.74b361a0.chunk.js.LICENSE.txt": "/guia-bolso-desafio/static/js/2.74b361a0.chunk.js.LICENSE.txt",
+    "static/media/chuck-norris.jpg": "/guia-bolso-desafio/static/media/chuck-norris.d8bf2be0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.970e14c3.js",
+    "static/js/2.74b361a0.chunk.js",
+    "static/css/main.ca68aa8f.chunk.css",
+    "static/js/main.9b07bfa6.chunk.js"
+  ]
+}
