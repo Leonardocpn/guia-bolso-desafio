@@ -34,7 +34,8 @@ function App() {
         >
           <Router>
             <Switch>
-              <Route exact path="/" component={Home} />
+              <Route exact path="/" render={() => <Home />} />
+              <Route component={Home} />
             </Switch>
           </Router>
         </Suspense>

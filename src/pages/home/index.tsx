@@ -18,6 +18,7 @@ import {
   Subtitle,
   StyleSelect,
 } from "./styles";
+import FactCard from "./components/facts";
 
 function Home() {
   const [categories, setCategories] = useState<string[]>([]);
@@ -70,7 +71,7 @@ function Home() {
           </FormControl>
         </StyleSelect>
       </Header>
-      <Main></Main>
+      <Main>{selectedCategory ? <FactCard /> : null}</Main>
     </Wrapper>
   );
 }
