@@ -1,23 +1,45 @@
-import React from "react";
-import logo from "./logo.svg";
+import React, { Suspense, lazy } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { CategoryProvider } from "./service/categoryContext";
+import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
+import { CircularProgress } from "@material-ui/core";
+import styled from "styled-components";
 import "./App.css";
+
+const Home = lazy(() => import("./pages/home"));
+
+const theme = createMuiTheme({
+  typography: {
+    fontFamily: "Courier New",
+  },
+});
+
+const Loading = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Docker and Travis</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <CategoryProvider>
+      <ThemeProvider theme={theme}>
+        <Suspense
+          fallback={
+            <Loading>
+              <CircularProgress size={100} />
+            </Loading>
+          }
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <Router>
+            <Switch>
+              <Route exact path="/" component={Home} />
+            </Switch>
+          </Router>
+        </Suspense>
+      </ThemeProvider>
+    </CategoryProvider>
   );
 }
 
